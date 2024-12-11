@@ -1,10 +1,11 @@
 .hero-section{
-    background-image: url('images/house party.jpg');
+    background-image: url('images/skyline.jpg');
     background-size: cover;
     background-position: center;
     color: black;
     padding: 50px 15px;
     border-radius: 15px;
+    
 }
 
 .card{
@@ -15,6 +16,7 @@
 
 .card:hover{
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .card img {
@@ -42,4 +44,46 @@ form{
     width: 100%;
     height: auto;
     min-height: 300px;
+}
+
+#login{
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+#login .form-group{
+    margin-bottom: 20px;
+}
+
+#login button{
+    width: 100%;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+.container img{
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container p{
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+footer{
+    background-color: #f8f9fa;
+    border-top: 2px solid #e9ecef;
+    padding: 20px 0;
+}
+
+@media (min-width: 768px) {
+    footer p {
+        font-size: 16px;
+    }
 }
