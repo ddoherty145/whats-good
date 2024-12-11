@@ -7,14 +7,17 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/stylesheet.css">
 
     <title>What's Good?</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <!-- would like to replace "Navbar" with an icon -->
-        <a class="navbar-brand" href="index.html">Navbar</a>
+
+        <a class="navbar-brand" href="index.html">
+          <img src="" alt="logo" width="30" height="30">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,19 +26,19 @@
             <a class="nav-link" aria-current="page" href="location.html">Locations</a>
             <a class="nav-link" href="events.html">Events</a>
             <a class="nav-link" href="about.html">About Us</a>
-            <!-- need to move the login button to the end of the Navbar -->
-            <a class="nav-link" href="login.html">Login</a>
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="login.html">Login</a>
+            </div>
           </div>
         </div>
       </div>
     </nav>
 
-    <!-- I want to put an image in the background of the hero below, i might be able to manage this with custom css -->
-    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+    <div class="container col-xl-10 col-xxl-8 px-4 py-5 hero-section">
       <div class="row align-items-center g-lg-5 py-5">
         <div class="col-lg-7 text-center text-lg-start">
-          <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3"> Join now to fing out What's Good in your area</h1>
-          <p class="col-lg-10 fs-4">"What's Good links you to all the major events that are going on in your area. Doesn;t matter if you weren't invited or not. Sign in and crash the party!"</p>
+          <h1 class="display-4 fw-bold lh-1 mb-3">Join now to find out What's Good in your area</h1>
+          <p class="col-lg-10 fs-4">"What's Good links you to all the major events that are going on in your area. Doesn't matter if you weren't invited or not. Sign in and crash the party!"</p>
         </div>
         <div class="col-md-10 mx-auto col-lg-5">
           <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
@@ -49,8 +52,7 @@
             </div>
             <div class="checkbox mb-3">
               <label>
-                <input type="checkbox" value="remember-me">
-                Remember Me
+                <input type="checkbox" value="remember-me"> Remember Me
               </label>
             </div>
             <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
@@ -60,8 +62,8 @@
         </div>
       </div>
     </div>
+    
 
-    <!-- need to make sure that the cards have a fixed size, I would also like the cards to have a drop shadow, could be done with css-->
     <div class="container mb-5 mt-5 pt-5">
       <h2 class="text-center">What's Good?</h2>
       <div class="row">
