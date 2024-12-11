@@ -1,12 +1,12 @@
-.hero-section{
-    background-image: url('images/skyline.jpg');
+/* .hero-section{
+    background-image: url('images/special/skyline.jpg');
     background-size: cover;
     background-position: center;
     color: black;
     padding: 50px 15px;
     border-radius: 15px;
     
-}
+} */
 
 .card{
     height:300px;
